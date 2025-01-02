@@ -1,0 +1,155 @@
+.admin-page {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e8f1f5;
+  color: black; 
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.admin-page h1 {
+  font-size: 2.8rem;
+  color: black; 
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.admin-page h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: black; 
+}
+
+.admin-page h3 {
+  font-size: 1.8rem;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  color: black; 
+}
+
+.notification-icon {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 300px;
+  text-align: center; 
+  color: red; 
+  transition: transform 0.3s ease; 
+}
+
+.notification-icon:hover {
+  transform: scale(1.1) rotate(30deg); 
+}
+
+.form-container {
+  background-color: whitesmoke;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  margin-bottom: 35px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  padding: 12px;
+  border: 1px solid #1c4662;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-container input:focus,
+.form-container select:focus,
+.form-container textarea:focus {
+  border-color: #1e88e5;
+  outline: none;
+  box-shadow: 0 0 6px rgba(30, 136, 229, 0.3);
+}
+
+.form-container button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  background-color: #507a61;
+  color: black; /* Changed color to black */
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-container button:hover {
+  background-color: #229954;
+  transform: scale(1.05);
+}
+
+.form-container button:disabled {
+  background-color: #103a56;
+  cursor: not-allowed;
+}
+
+.company-list {
+  margin-top: 25px;
+}
+
+.company-list p {
+  font-size: 1.2rem;
+  color: black; /* Changed color to black */
+  text-align: center;
+}
+
+.company-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #e7dada;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.company-row:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.company-row h4 {
+  font-size: 1.4rem;
+  color: black; 
+  margin-bottom: 8px;
+}
+
+.company-row p {
+  color: black; 
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.company-row button {
+  background-color: #a2746f;
+  border: none;
+  color: black; 
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.company-row button:hover {
+  background-color: #754b46;
+  transform: scale(1.1);
+}
+
+.company-row button:focus {
+  outline: none;
+}

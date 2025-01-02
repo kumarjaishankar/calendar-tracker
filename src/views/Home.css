@@ -1,0 +1,29 @@
+.home {
+  text-align: center;
+}
+
+.home-image {
+  width: 100%; 
+  max-width: 800px; 
+  height: auto;
+  margin-bottom: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.glow-text {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5em;
+  text-shadow: 0 0 5px #fff, 0 0 10px #ffff00, 0 0 15px #ffff00, 0 0 20px #ffff00;
+  animation: glowText 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glowText {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #ffff00, 0 0 15px #ffff00, 0 0 20px #ffff00;
+  }
+  100% {
+    text-shadow: 0 0 15px #fff, 0 0 30px #ffff00, 0 0 45px #ffff00, 0 0 60px #ffff00;
+  }
+}
